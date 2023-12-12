@@ -2,6 +2,8 @@
 *.json
 *.cache
 
+*.DS_Store
+
 # diagrams
 *.drawio
 *.drawio.bkp
