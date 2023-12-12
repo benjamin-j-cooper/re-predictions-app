@@ -1,0 +1,46 @@
+<mxfile host="Electron" modified="2023-12-12T15:03:03.093Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="SV5wHFbQ1lr5XXwuVsXh" version="22.1.2" type="device">
+  <diagram name="Page-1" id="ih7S4IVpn6QYvs9y2Ikf">
+    <mxGraphModel dx="954" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xIS3E896eEamexPywbok-1" value="&amp;lt;&amp;lt;System&amp;gt;&amp;gt;&lt;br&gt;Housing Prices App&lt;br&gt;(AWS)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="365" y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xIS3E896eEamexPywbok-2" value="&amp;lt;&amp;lt;system&amp;gt;&amp;gt;&lt;br&gt;geo" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="385" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xIS3E896eEamexPywbok-3" value="&amp;lt;&amp;lt;system&amp;gt;&amp;gt;&lt;br&gt;Real Estate Data" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xIS3E896eEamexPywbok-4" value="&amp;lt;&amp;lt;System&amp;gt;&amp;gt;&lt;br&gt;website EC2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="550" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xIS3E896eEamexPywbok-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xIS3E896eEamexPywbok-1" target="xIS3E896eEamexPywbok-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="200" as="sourcePoint" />
+            <mxPoint x="430" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xIS3E896eEamexPywbok-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xIS3E896eEamexPywbok-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="240" as="sourcePoint" />
+            <mxPoint x="260" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xIS3E896eEamexPywbok-8" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xIS3E896eEamexPywbok-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="240" as="sourcePoint" />
+            <mxPoint x="590" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

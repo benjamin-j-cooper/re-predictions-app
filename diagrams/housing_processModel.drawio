@@ -1,0 +1,145 @@
+<mxfile host="Electron" modified="2023-12-12T15:34:09.440Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="tMpg-T5bG2WoPMQSnxTj" version="22.1.2" type="device">
+  <diagram name="Page-1" id="mZAGDkjLX-rgJoIDHCeY">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-1" value="get data from real estate database (API?)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-2" value="&amp;lt;&amp;lt;Module&amp;gt;&amp;gt;&lt;br&gt;Real Estate Data Scraper" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="260" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-3" value="&amp;lt;&amp;lt;Module&amp;gt;&amp;gt;&lt;br&gt;ML Price Prediction Models" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="500" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-4" value="&amp;lt;&amp;lt;Module&amp;gt;&amp;gt;&lt;br&gt;Map application" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="720" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="70" y="60" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=none;perimeterSpacing=10;" parent="1" vertex="1">
+          <mxGeometry x="749.75" y="302" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#0000F0;perimeterSpacing=1;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="747.75" y="300" width="24.5" height="24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-8" value="store real estate data in database" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="uKq6kxDPPlUrrm8vqb3u-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="190" as="sourcePoint" />
+            <mxPoint x="360" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-10" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="410" as="sourcePoint" />
+            <mxPoint x="420" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-11" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="245" as="sourcePoint" />
+            <mxPoint x="650" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-12" value="Perform ML Model (Random Forest + Regression)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-13" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="300" as="sourcePoint" />
+            <mxPoint x="420" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-14" value="get real estate data for map extent" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="uKq6kxDPPlUrrm8vqb3u-14" target="uKq6kxDPPlUrrm8vqb3u-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="330" as="sourcePoint" />
+            <mxPoint x="590" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-16" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="210" as="sourcePoint" />
+            <mxPoint x="650" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="370" as="sourcePoint" />
+            <mxPoint x="480" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-18" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" target="uKq6kxDPPlUrrm8vqb3u-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="440" as="sourcePoint" />
+            <mxPoint x="280" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-20" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.658;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="uKq6kxDPPlUrrm8vqb3u-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="440" as="sourcePoint" />
+            <mxPoint x="780.5" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-21" value="Page loads to map extent for user location" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-22" value="&amp;lt;&amp;lt;Module&amp;gt;&amp;gt;&lt;br&gt;Map application" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="40" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-23" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="440" as="sourcePoint" />
+            <mxPoint x="70" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-24" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="190" as="sourcePoint" />
+            <mxPoint x="420" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-28" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="uKq6kxDPPlUrrm8vqb3u-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="130" as="sourcePoint" />
+            <mxPoint x="80" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-29" value="Load houses for sale and ML predicted sale price" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-30" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="uKq6kxDPPlUrrm8vqb3u-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="290" as="sourcePoint" />
+            <mxPoint x="760" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" parent="1" source="uKq6kxDPPlUrrm8vqb3u-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="450" as="sourcePoint" />
+            <mxPoint x="540" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKq6kxDPPlUrrm8vqb3u-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="uKq6kxDPPlUrrm8vqb3u-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="210" as="sourcePoint" />
+            <mxPoint x="700" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
